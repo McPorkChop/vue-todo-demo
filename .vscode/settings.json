@@ -1,0 +1,84 @@
+{
+    "[typescript]": {
+        "editor.defaultFormatter": "esbenp.prettier-vscode"
+    },
+    "[dart]": {
+        "editor.defaultFormatter": "Dart-Code.dart-code"
+    },
+    "[xml]": {
+        "editor.defaultFormatter": "redhat.vscode-xml",
+        "editor.formatOnSave": true
+    },
+    "[vue]": {
+        "editor.defaultFormatter": "octref.vetur"
+    },
+    "[javascript]": {
+        "editor.defaultFormatter": "vscode.typescript-language-features"
+    },
+    "editor.tabSize": 4,
+    "editor.formatOnPaste": true,
+    "editor.multiCursorModifier": "ctrlCmd",
+    "editor.defaultFormatter": "esbenp.prettier-vscode",
+    "editor.codeActionsOnSave": {
+        "source.fixAll.eslint": true,
+        "source.organizeImports": true
+    },
+    "editor.formatOnSave": true,
+    "editor.suggestSelection": "first",
+    "editor.fontFamily": "'Fira Code',Menlo, Monaco, 'Courier New', monospace",
+    "editor.lineNumbers": "on",
+    "vetur.format.options.tabSize": 4,
+    "vetur.format.defaultFormatter.html": "js-beautify-html",
+    "vetur.format.defaultFormatter.css": "prettier",
+    "vetur.format.defaultFormatter.postcss": "prettier",
+    "vetur.format.defaultFormatter.scss": "prettier",
+    "vetur.format.defaultFormatter.less": "prettier",
+    "vetur.format.defaultFormatter.stylus": "stylus-supremacy",
+    "vetur.format.defaultFormatter.js": "none",
+    "vetur.format.defaultFormatter.ts": "none",
+    "vetur.format.defaultFormatterOptions": {
+        "prettier": {
+            "max_preserve_newlines": 1
+        }
+    },
+    "vetur.validation.template": false,
+
+    "javascript.format.semicolons": "insert",
+    "javascript.format.insertSpaceBeforeFunctionParenthesis": true,
+    "typescript.format.insertSpaceBeforeFunctionParenthesis": true,
+    "typescript.locale": "zh-CN",
+    "typescript.preferences.quoteStyle": "double",
+    "typescript.suggest.completeFunctionCalls": true,
+
+    "bracket-pair-colorizer-2.highlightActiveScope": true,
+    "bracket-pair-colorizer-2.activeScopeCSS": [
+        "borderStyle : solid",
+        "borderWidth : 1px",
+        "borderColor : {color}",
+        "opacity: 0.5"
+    ],
+
+    "git.autofetch": true,
+    "git.autoStash": true,
+    "gitlens.codeLens.scopes": ["document", "containers", "blocks"],
+    "gitlens.views.repositories.location": "gitlens",
+    "gitlens.views.fileHistory.location": "gitlens",
+    "gitlens.views.lineHistory.location": "gitlens",
+    "gitlens.views.compare.location": "gitlens",
+    "gitlens.views.search.location": "gitlens",
+
+    "docthis.dateTagFormat": "yyyy-mm-dd",
+    "docthis.inferTypesFromNames": true,
+    "docthis.returnsTag": true,
+    "docthis.includeDescriptionTag": true,
+    "docthis.enableHungarianNotationEvaluation": true,
+
+    "eslint.validate": [
+        "javascript",
+        "javascriptreact",
+        "vue"
+    ],
+    "cSpell.words": [
+        "todos"
+    ]
+}
