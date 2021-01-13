@@ -27,6 +27,12 @@
         >
             SFC
         </router-link>
+        <router-link
+            to="/tsx"
+            class="app-tab-link"
+        >
+            TSX
+        </router-link>
     </div>
     <div class="app-content">
         <router-view />

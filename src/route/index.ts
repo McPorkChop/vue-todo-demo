@@ -19,6 +19,11 @@ const routes: RouteRecordRaw[] = [
         path: "/function",
         name: "Function",
         component: () => import("../views/function-based.vue")
+    },
+    {
+        path: "/tsx",
+        name: "tsx",
+        component: () => import("../views/tsx-based")
     }
 ];
 
